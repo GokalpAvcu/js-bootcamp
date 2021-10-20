@@ -72,4 +72,8 @@ console.log(Math.max(...points)) // enbüyüğünü verir
 console.log(..."ABC","D",..."EFG","H")
 
 //Destructuring (elimizdeki array'in değerlerini değişkenlere atama yöntemi)
-
+let populations = [10000,20000,30000]
+let [small,medium,high] = populations
+console.log(small)
+console.log(medium)
+console.log(high)
