@@ -63,4 +63,13 @@ console.log(products[0])
 }
 
 //console.log(typeof showProducts)
-showProducts(10,"Elma","Çilek","Kiraz")
+//showProducts(10,["Elma","Çilek","Kiraz"])
+
+//spread(...)
+let points = [1,2,3,4,50,60,34,32]
+console.log(...points)
+console.log(Math.max(...points)) // enbüyüğünü verir
+console.log(..."ABC","D",..."EFG","H")
+
+//Destructuring (elimizdeki array'in değerlerini değişkenlere atama yöntemi)
+
