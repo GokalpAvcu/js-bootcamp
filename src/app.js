@@ -46,11 +46,21 @@ function save(ogrenci,puan=10) {
     console.log(ogrenci.name + " : " + puan)
     
 }
-save(student,100);
+//save(student,100);
 
 let students = ["Engin Demiroğ","Halit Kalaycı","Gökalp Avcu"]
 
 //console.log(students)
 
 let students2 = [student,{id:2, name:"Halit"},"Ankara",{city:"İstanbul"}]
-console.log(students2)
+//console.log(students2)
+
+//rest
+let showProducts = function (id,...products){ 
+console.log(id)
+console.log(products[0])
+  
+}
+
+//console.log(typeof showProducts)
+showProducts(10,"Elma","Çilek","Kiraz")
