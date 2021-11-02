@@ -55,11 +55,16 @@ addToCart("Karpuz")
  addToCart4(products)
 
  function add(...numbers) { // rest operators (degiskenin önüne 3 nokta)
-    for (let i = 0; index < numbers.length; i++) {
-         console.log(numbers[i])
-        
+    let total = 0;
+    for (let i = 0; i < numbers.length; i++) {
+         total = total + numbers[i]     
     }
+    console.log(total)
  }
+
+
  add(20,30)
  add(20,30, 40)
  add(20,30,40, 50)
+
+ 
