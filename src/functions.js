@@ -39,3 +39,7 @@ addToCart("Karpuz")
  product2 = product3
  product2.productName = "KARPUZ"
  console.log(product3.productName)
+
+ // degiskenler verinin turune gore ikiye ayrilir, eger veri sayisalsa deger tiptir. objeler ise referans tiptir.
+
+ 
