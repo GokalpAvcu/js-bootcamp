@@ -73,6 +73,18 @@ let numbers = [30,10,500,600,120]
  console.log(Math.max(...numbers))
 
 
- let regions = ["İç Anadolu","Marmara","Karadeniz"]
+ let [icAnadolu,marmara,karadeniz,[icAnadoluSehirleri]] = [
+  {name:"İç Anadolu", population:"20M"},
+  {name:"Marmara", population:"30M"},
+  {name:"Karadeniz", popuulation:"10M"},
+  [
+     ["Ankara","Konya"],
+     ["İstanbul","Bursa"],
+     ["Sinop","Trabzon"],
 
- console.log(regions[1])
+  ]
+]
+
+ //console.log(icAnadolu.name)
+ //console.log(icAnadolu.population)
+ console.log(icAnadoluSehirleri)
