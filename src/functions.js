@@ -71,3 +71,8 @@ addToCart("Karpuz")
 let numbers = [30,10,500,600,120]
 //console.log(...numbers)
  console.log(Math.max(...numbers))
+
+
+ let regions = ["İç Anadolu","Marmara","Karadeniz"]
+
+ console.log(regions[1])
