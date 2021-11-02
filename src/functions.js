@@ -89,8 +89,3 @@ let numbers = [30,10,500,600,120]
  //console.log(icAnadolu.population)
  console.log(icAnadoluSehirleri)
 
-
-
- let product5 = {productName:"Elma", unitPrice:10, quantity:5}
-
- console.log(product5)
