@@ -54,7 +54,9 @@ addToCart("Karpuz")
 
  addToCart4(products)
 
- function add(number1, number2) {
-     console.log(number1 + number2)
+ function add(...numbers) {
+     console.log(numbers)
  }
  add(20,30)
+ add(20,30, 40)
+ add(20,30,40, 50)
