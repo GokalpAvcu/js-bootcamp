@@ -26,7 +26,10 @@ addToCart("Karpuz")
  let product1 = {productName:"Elma", unitPrice:10, quantity:5}
 
  function addToCart3(product) {
-     
+       console.log("Ürün : "+product.productName)
+       console.log("Adet : "+product.quantity)
+       console.log("Fiyat : "+product.unitPrice)
+
  }
 
  addToCart3(product1)
