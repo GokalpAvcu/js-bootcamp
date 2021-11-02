@@ -1,4 +1,4 @@
-/* console.log("Merhaba Kodlama.io")
+ console.log("Merhaba Kodlama.io")
 
 // JS type safe değildir
 let dolarDun = 9.20
@@ -30,66 +30,6 @@ console.log("<ul>")
 
 
 //react
-console.log(konutKredileri) */
-
-// -------------------------------------------
-
-//var,let,const
-
-let sayi1 = 10
-sayi1 = "Engin Demiroğ"
-let student = {id:1, name:"Engin"}
-//console.log(student);
+console.log(konutKredileri) 
 
 
-function save(ogrenci,puan=10) {
-    console.log(ogrenci.name + " : " + puan)
-    
-}
-//save(student,100);
-
-let students = ["Engin Demiroğ","Halit Kalaycı","Gökalp Avcu"]
-
-//console.log(students)
-
-let students2 = [student,{id:2, name:"Halit"},"Ankara",{city:"İstanbul"}]
-//console.log(students2)
-
-//rest
-let showProducts = function (id,...products){ 
-console.log(id)
-console.log(products[0])
-  
-}
-
-//console.log(typeof showProducts)
-//showProducts(10,["Elma","Çilek","Kiraz"])
-
-//spread(...)
-let points = [1,2,3,4,50,60,34,32]
-console.log(...points)
-console.log(Math.max(...points)) // enbüyüğünü verir
-console.log(..."ABC","D",..."EFG","H")
-
-//Destructuring (elimizdeki array'in değerlerini değişkenlere atama yöntemi)
-let populations = [10000,20000,30000,[40000,100000]]
-let [small,medium,high,[veryHigh,maximum]] = populations
-console.log(small)
-console.log(medium)
-console.log(high)
-console.log(veryHigh)
-console.log(maximum)
-
-function someFunction([small1],number) {
-    console.log(small1)
-}
-
-someFunction(populations)
-
-let category = {id:1, name:"İçecek"}
-console.log(category.id)
-console.log(category["name"])
-
-let {id,name} = category
-console.log(id)
-console.log(name)
