@@ -42,4 +42,19 @@ addToCart("Karpuz")
 
  // degiskenler verinin turune gore ikiye ayrilir, eger veri sayisalsa deger tiptir. objeler ise referans tiptir.
 
- 
+ function addToCart4(products) {
+     console.log(products)
+ }
+
+ let products = [
+     {productName:"Elma", unitPrice:10, quantity:5},
+     {productName:"Armut", unitPrice:10, quantity:5},
+     {productName:"Karpuz", unitPrice:10, quantity:5}     
+ ]
+
+ addToCart4(products)
+
+ function add(number1, number2) {
+     console.log(number1 + number2)
+ }
+ add(20,30)
