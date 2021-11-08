@@ -1,4 +1,4 @@
-export class UserService{
+export default class UserService{
 
    add(user){
        console.log("kullanıcı eklendi" + user)
