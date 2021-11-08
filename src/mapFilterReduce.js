@@ -15,9 +15,11 @@ cart.map(product=>{
 console.log("</ul>")
 
 let total = cart.reduce((acc,product)=>acc+ product.unitPrice,0)
+
 console.log(total)
 
 let quantityOver2 = cart.filter(product=>product.quantity>2)
+
 console.log(quantityOver2)
 
 
