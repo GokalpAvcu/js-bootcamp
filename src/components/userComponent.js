@@ -15,4 +15,4 @@ userService.getById(1)
 userService.list()
 
 
-let customer =
+let customer = {id:1, firstName:"Gökalp"}
