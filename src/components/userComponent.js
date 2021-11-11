@@ -5,8 +5,8 @@ console.log("User component yüklendi")
 
 let userService = new UserService ()
 
-let user1 = new User();
-userService.add()
+let user1 = new User(1,"Gökalp","Avcu","Antalya");
+userService.add(user1)
 
 
 
