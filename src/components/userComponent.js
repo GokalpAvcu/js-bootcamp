@@ -16,3 +16,8 @@ userService.list()
 
 
 let customer = {id:1, firstName:"Gökalp"}
+
+//prototyping
+customer.lastName = "Avcu"
+
+console.log(customer.lastName)
